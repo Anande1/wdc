@@ -1,0 +1,31 @@
+p{
+  font-family:'Amatic SC', cursive;
+}
+
+.colonne{display:flex;}
+.colonne li{width:calc(100% / 3); 
+  text-align:justify; 
+  margin:0 30px; 
+}
+
+ul{
+  list-style-type: none;
+  font-size: 0;
+}
+ul li{
+  display: inline-block;
+  width: calc(100% / 3);
+  font-size: 15px;
+}
+
+table,td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: green;
+    color: #fff;
+}
+  
+  
